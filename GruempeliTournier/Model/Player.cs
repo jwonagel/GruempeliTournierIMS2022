@@ -5,6 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
+
+[assembly: InternalsVisibleTo("GruempeliTournier.Test")]
+
 namespace GruempeliTournier.Model
 {
     internal class Player
@@ -22,7 +25,7 @@ namespace GruempeliTournier.Model
 
         public string GetFullName()
         {
-            return $"{FirstName} {Name} ({BirthDate})";
+            return $"{FirstName} {Name} ({BirthDate:dd. MMM yyyy})";
         }
 
     }

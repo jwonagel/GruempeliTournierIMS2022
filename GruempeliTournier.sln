@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GruempeliTournier", "GruempeliTournier\GruempeliTournier.csproj", "{6077C0FA-6757-4C68-BDC9-2F4F194FDB4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GruempeliTournier", "GruempeliTournier\GruempeliTournier.csproj", "{6077C0FA-6757-4C68-BDC9-2F4F194FDB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GruempeliTournier.Test", "GruempeliTournier.Test\GruempeliTournier.Test.csproj", "{4EFF3A7B-905A-48D5-953E-B5EAE1175C06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6077C0FA-6757-4C68-BDC9-2F4F194FDB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6077C0FA-6757-4C68-BDC9-2F4F194FDB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6077C0FA-6757-4C68-BDC9-2F4F194FDB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFF3A7B-905A-48D5-953E-B5EAE1175C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFF3A7B-905A-48D5-953E-B5EAE1175C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFF3A7B-905A-48D5-953E-B5EAE1175C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFF3A7B-905A-48D5-953E-B5EAE1175C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
