@@ -5,6 +5,8 @@ using Microsoft.Data.SqlClient;
 
 var list = new List<Player>();
 
+var contetn = File.ReadAllText("Title.txt");
+Console.WriteLine(contetn);
 
 var connectionString =
     "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Gruempeli;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
